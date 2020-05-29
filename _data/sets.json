@@ -1,0 +1,66 @@
+[
+	{
+		"name": "Set 2",
+		"description": "Descripcion del set",
+		"promo": 15,
+		"averagePrice": 250,
+		"mainPicture": "url",
+		"pictures": [
+			"pic 1",
+			"pic 2",
+			"pic 3",
+			"pic 4",
+			"pic 5"
+		],
+		"freePictures": [
+			"pic 1",
+			"pic 2",
+			"pic 3"
+		],
+		"likes": 0,
+		"tag": "Soft"
+	},
+	{
+		"name": "Set 3",
+		"description": "Descripcion del set",
+		"promo": 15,
+		"averagePrice": 130,
+		"mainPicture": "url",
+		"pictures": [
+			"pic 1",
+			"pic 2",
+			"pic 3",
+			"pic 4",
+			"pic 5"
+		],
+		"freePictures": [
+			"pic 1",
+			"pic 2",
+			"pic 3"
+		],
+		"likes": 0,
+		"tag": "Soft"
+	},
+	{
+		"name": "Set 4",
+		"description": "Descripcion del set",
+		"promo": 15,
+		"averagePrice": 50,
+		"mainPicture": "url",
+		"pictures": [
+			"pic 1",
+			"pic 2",
+			"pic 3",
+			"pic 4",
+			"pic6",
+			"pic 7"
+		],
+		"freePictures": [
+			"pic 1",
+			"pic 2",
+			"pic 3"
+		],
+		"likes": 0,
+		"tag": "Soft"
+	}
+]
