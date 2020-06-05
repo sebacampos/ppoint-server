@@ -5,6 +5,14 @@ const path = require('path');
 var fs = require('fs');
 var ObjectId = require('mongodb').ObjectID;
 
+// @desc API status
+// route /api/v1/auth/statusrs
+// @access Public
+
+exports.status = async (req, res, next) => {
+    res.send({ status: 'ok' });
+}
+
 // @desc Register User
 // route /api/v1/auth/register
 // @access Public

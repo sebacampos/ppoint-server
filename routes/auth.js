@@ -1,10 +1,13 @@
 const express = require('express');
-const { register, login, getMe, getUsers, forgotPassword, updateRating, follow, updateRole, updateUserPic, getListUsers, chatNotification, deleteChatNotification } = require('../controllers/auth');
+const { status, register, login, getMe, getUsers, forgotPassword, updateRating, follow, updateRole, updateUserPic, getListUsers, chatNotification, deleteChatNotification } = require('../controllers/auth');
 
-const router = express.Router();
+// const router = express.Router();
+const router = express();
 
 const {protect, authorized} = require('../middleware/auth');
 
+router.get('/status', status);
+router.post('/register', register);
 router.post('/register', register);
 router.post('/login', login);
 router.post('/:id/follow', protect, follow);
