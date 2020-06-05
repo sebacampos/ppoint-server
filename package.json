@@ -7,7 +7,7 @@
     "start": "NODE_ENV=production node server",
     "dev": "node server"
   },
-  "author": "Federico Brunfman",
+  "author": "Sebastian Campos",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^3.0.7",
